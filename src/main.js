@@ -1,3 +1,3 @@
 import "./js/slider";
-import "./js/mobile";
-import "./js/modal";
+// import "./js/mobile";
+// import "./js/modal";
