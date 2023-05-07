@@ -1,0 +1,67 @@
+.watches {
+  padding-bottom: 80px;
+}
+
+.watches-title {
+  margin-bottom: 8px;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.06em;
+  color: rgba(20, 20, 20, 0.4);
+}
+
+.watches-subtitle {
+  margin-bottom: 40px;
+  font-size: 32px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: var(--dark-bcgnd-color);
+}
+
+.watches-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .watches {
+    padding-bottom: 128px;
+  }
+
+  .watches-list {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .watches-subtitle {
+    width: 448px;
+  }
+
+  .watches-subtitle {
+    font-size: 40px;
+    line-height: 1.1;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .watches {
+    padding-top: 80px;
+    padding-bottom: 160px;
+  }
+
+  .watches-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .watches-subtitle {
+    margin-bottom: 80px;
+  }
+
+  .watches-list {
+    gap: 20px;
+  }
+}

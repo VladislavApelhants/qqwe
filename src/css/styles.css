@@ -1,0 +1,24 @@
+/**
+  |============================
+  | include css partials with
+  | default @import url()
+  |============================
+*/
+@import url('./reset.css');
+@import url('./base.css');
+
+/* Ільків Святослав */
+@import url('./header.css');
+/* Volodymyr Bodniak  */
+@import url('./hero.css');
+/* Yaroslav Tkachuk */
+@import url('./about-us.css');
+/* Svitlana Romaniuk */
+@import url('./catalog.css');
+/* ANDRII  */
+@import url('./new-watches.css');
+/* Alina Grachova  */
+@import url('./sale.css');
+/* Марина Фесенко */
+@import url('./footer.css');
+
